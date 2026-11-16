@@ -29,6 +29,6 @@ const styles = StyleSheet.create({
   textLogo: {
     color: 'white',
     fontSize: 26,
-    fontWeight: '999',
+    fontWeight: '900',
   },
 });
