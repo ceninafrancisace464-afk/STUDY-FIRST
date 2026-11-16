@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "STUDY-BUDDY",
-    "slug": "study-buddy",
+    "name": "StudyFirst",
+    "slug": "StudyFirst",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/appBOt.png",

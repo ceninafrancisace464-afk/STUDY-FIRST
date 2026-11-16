@@ -13,7 +13,7 @@ export default function AdminSidebar(){
                     <Image source={require('../../assets/admin-icons/logo.png')} style={{width: 80, height: 80}}/>
 
                     <View>
-                        <Text style={{fontSize: 25, fontWeight: 600, color: "#D62828"}}>Study Buddy</Text>
+                        <Text style={{fontSize: 25, fontWeight: 600, color: "#3ab862"}}>Study First</Text>
                         <Text style={{color: "#888"}}>Admin Dashboard</Text>
                     </View>
                 </View>

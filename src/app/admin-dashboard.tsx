@@ -70,7 +70,7 @@ export default function AdminDashboard() {
           </Pressable>
 
           <Text style={styles.logoText}>
-            Study Buddy
+            Study First
           </Text>
 
           <Pressable onPress={fetchDashboardData}>

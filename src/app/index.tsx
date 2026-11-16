@@ -14,7 +14,7 @@ export default function Index() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.textLogo}>STUDY BUDDY</Text>
+      <Text style={styles.textLogo}>STUDY FIRST</Text>
     </View>
   );
 }

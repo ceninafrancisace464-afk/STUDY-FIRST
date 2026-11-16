@@ -23,7 +23,7 @@ export default function onboarding() {
             <View style={onboardingStyle.container2}>
 
                 {/* Title & Desc */}
-                <Text style={onboardingStyle.titleText}>Welcome to <Text style={{color: "white"}}>Study Buddy</Text></Text>
+                <Text style={onboardingStyle.titleText}>Welcome to <Text style={{color: "white"}}>Study First</Text></Text>
                 <Text style={onboardingStyle.descText}>Your school community, made for learning together</Text>
             </View>
 

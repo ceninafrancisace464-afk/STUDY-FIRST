@@ -388,7 +388,7 @@ export default function Home() {
                 color: '#3ab862',
               }}
             >
-              Study Buddy
+              Study First
             </Text>
           </View>
 
