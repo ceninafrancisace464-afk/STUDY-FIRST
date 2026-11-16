@@ -353,7 +353,7 @@ const profileStyle = StyleSheet.create({
   },
 
   logoutButton: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     flexDirection: 'row',
     alignItems: 'center',
     marginHorizontal: 20,

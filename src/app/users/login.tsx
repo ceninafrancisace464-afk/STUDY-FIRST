@@ -294,7 +294,7 @@ const loginStyle = StyleSheet.create({
   },
 
   checkmark: {
-    color: '#D62828',
+    color: '#3ab862',
     fontSize: 16,
     fontWeight: 'bold',
     lineHeight: 18,

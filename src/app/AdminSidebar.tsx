@@ -80,12 +80,12 @@ const styles = StyleSheet.create({
         marginTop: 0,  
     },
     textButton:{
-        color: '#D62828',
+        color: '#3ab862',
         fontSize: 18,
         fontWeight: 600,
     },
     logoutButton:{
-        backgroundColor: '#D62828',
+        backgroundColor: '#3ab862',
         height: 50,
         marginHorizontal: 20,
         borderRadius: 10,

@@ -278,7 +278,7 @@ const styles = StyleSheet.create({
   },
 
   navbar: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     height: 120,
     flexDirection: 'row',
     alignItems: 'center',
@@ -317,7 +317,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     width: '100%',
     borderRadius: 10,
-    borderColor: 'red',
+    borderColor: '#3ab862',
     paddingHorizontal: 10,
     height: 48,
   },
@@ -337,7 +337,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     width: '100%',
     borderRadius: 10,
-    borderColor: 'red',
+    borderColor: '#3ab862',
     paddingHorizontal: 10,
     height: 45,
   },
@@ -387,7 +387,7 @@ const styles = StyleSheet.create({
   },
 
   addButton: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     paddingHorizontal: 15,
     paddingVertical: 10,
     borderRadius: 10,
@@ -413,7 +413,7 @@ const styles = StyleSheet.create({
   },
 
   createButton: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     marginHorizontal: 20,
     height: 50,
     borderRadius: 12,

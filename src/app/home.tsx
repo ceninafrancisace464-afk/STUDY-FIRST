@@ -385,7 +385,7 @@ export default function Home() {
               style={{
                 fontSize: 22,
                 fontWeight: '600',
-                color: '#D62828',
+                color: '#3ab862',
               }}
             >
               Study Buddy
@@ -500,7 +500,7 @@ export default function Home() {
           <View style={{ flexDirection: 'row' }}>
             <View
               style={{
-                backgroundColor: '#D62828',
+                backgroundColor: '#3ab862',
                 height: 110,
                 justifyContent: 'flex-end',
                 marginVertical: 40,
@@ -532,7 +532,7 @@ export default function Home() {
             >
               <Text
                 style={{
-                  color: 'red',
+                  color: '#3ab862',
                   fontWeight: '500',
                   fontSize: 17,
                 }}
@@ -840,7 +840,7 @@ export default function Home() {
               style={{
                 fontSize: 20,
                 fontWeight: 'bold',
-                color: '#D62828',
+                color: '#3ab862',
                 marginBottom: 12,
               }}
             >
@@ -861,7 +861,7 @@ export default function Home() {
             <Pressable
               onPress={() => setShowShareModal(false)}
               style={{
-                backgroundColor: '#D62828',
+                backgroundColor: '#3ab862',
                 paddingVertical: 12,
                 paddingHorizontal: 40,
                 borderRadius: 8,
@@ -1026,7 +1026,7 @@ const homeStyle = StyleSheet.create({
     left: 0,
     right: 0,
     height: 70,
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
@@ -1093,7 +1093,7 @@ const homeStyle = StyleSheet.create({
   },
 
   leaderboardButton: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     paddingVertical: 12,
     paddingHorizontal: 20,
     borderRadius: 8,

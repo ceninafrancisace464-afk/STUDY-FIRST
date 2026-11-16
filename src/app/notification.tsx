@@ -1,15 +1,4 @@
-
-import {
-  View,
-  Text,
-  Image,
-  Pressable,
-  StyleSheet,
-  ScrollView,
-  Alert,
-  ActivityIndicator,
-} from 'react-native';
-
+import {View,Text,Image,Pressable,StyleSheet,ScrollView,Alert,ActivityIndicator,} from 'react-native';
 import { router } from 'expo-router';
 import { useEffect, useState, useCallback } from 'react';
 import { supabase } from '../lib/supabase';
@@ -194,7 +183,7 @@ const updateRequest = async (
           onPress={fetchRequests}
           style={styles.refreshButton}
         >
-          <Text style={{ color: '#D62828', fontWeight: 'bold' }}>
+          <Text style={{ color: '#3ab862', fontWeight: 'bold' }}>
             Refresh
           </Text>
         </Pressable>
@@ -208,7 +197,7 @@ const updateRequest = async (
         {loading ? (
           <ActivityIndicator
             size="large"
-            color="#D62828"
+            color="#3ab862"
             style={{ marginTop: 40 }}
           />
         ) : requests.length === 0 ? (
@@ -291,7 +280,7 @@ const styles = StyleSheet.create({
   },
 
   navbar: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     height: 120,
     flexDirection: 'row',
     alignItems: 'center',
@@ -323,7 +312,7 @@ const styles = StyleSheet.create({
   },
 
   refreshButton: {
-    backgroundColor: '#F5B1B1',
+    backgroundColor: '#6ee092',
     width: 80,
     height: 30,
     borderRadius: 10,
@@ -381,7 +370,7 @@ const styles = StyleSheet.create({
   },
 
   acceptButton: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     paddingHorizontal: 20,
     paddingVertical: 9,
     borderRadius: 10,
@@ -428,7 +417,7 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     height: 70,
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',

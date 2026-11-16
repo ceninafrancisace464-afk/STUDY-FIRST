@@ -114,7 +114,7 @@ export default function AdminDashboard() {
               </Text>
 
               {loading ? (
-                <ActivityIndicator color="#D62828" />
+                <ActivityIndicator color="#3ab862" />
               ) : (
                 <Text style={styles.number}>
                   {totalUsers}
@@ -143,7 +143,7 @@ export default function AdminDashboard() {
               </Text>
 
               {loading ? (
-                <ActivityIndicator color="#D62828" />
+                <ActivityIndicator color="#3ab862" />
               ) : (
                 <Text style={styles.number}>
                   {totalNotes}
@@ -172,7 +172,7 @@ export default function AdminDashboard() {
               </Text>
 
               {loading ? (
-                <ActivityIndicator color="#D62828" />
+                <ActivityIndicator color="#3ab862" />
               ) : (
                 <Text style={styles.number}>
                   {totalGroups}
@@ -235,12 +235,12 @@ const styles = StyleSheet.create({
 
   logoText: {
     fontSize: 22,
-    color: '#D62828',
+    color: '#3ab862',
     fontWeight: '600',
   },
 
   refreshText: {
-    color: '#D62828',
+    color: '#3ab862',
     fontWeight: 'bold',
   },
 
@@ -291,7 +291,7 @@ const styles = StyleSheet.create({
   },
 
   number: {
-    color: '#D62828',
+    color: '#3ab862',
     fontWeight: '600',
     fontSize: 20,
   },

@@ -1,16 +1,4 @@
-
-import {
-  View,
-  Text,
-  Pressable,
-  Image,
-  StyleSheet,
-  TextInput,
-  Alert,
-  ActivityIndicator,
-  ScrollView,
-} from 'react-native';
-
+import {View,Text,Pressable,Image,StyleSheet,TextInput,Alert,ActivityIndicator,ScrollView,} from 'react-native';
 import { router, Link } from 'expo-router';
 import { useState } from 'react';
 import { supabase } from '../../lib/supabase';
@@ -231,7 +219,7 @@ export default function Signup() {
           <Link
             href="/users/login"
             style={{
-              color: 'red',
+              color: '#3ab862',
               fontWeight: '700',
             }}
           >
@@ -264,7 +252,7 @@ const signupStyle = StyleSheet.create({
   createText: {
     fontSize: 35,
     fontWeight: '700',
-    color: '#D62828',
+    color: '#3ab862',
   },
 
   allInput: {
@@ -281,7 +269,7 @@ const signupStyle = StyleSheet.create({
   },
 
   signupButton: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     width: 290,
     marginTop: 20,
     paddingVertical: 12,

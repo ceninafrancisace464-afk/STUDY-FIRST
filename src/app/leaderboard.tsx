@@ -145,7 +145,7 @@ export default function LeaderboardPage() {
         {loading ? (
           <ActivityIndicator
             size="large"
-            color="#D62828"
+            color="#3ab862"
             style={{ marginTop: 40 }}
           />
         ) : (
@@ -293,7 +293,7 @@ const styles = StyleSheet.create({
   },
 
   todayContainer: {
-    backgroundColor: '#f6a4a4',
+    backgroundColor: '#7df3a2',
     height: 55,
     marginHorizontal: 20,
     borderRadius: 20,
@@ -304,7 +304,7 @@ const styles = StyleSheet.create({
   },
 
   todayText: {
-    color: 'red',
+    color: '#3ab862',
     fontSize: 20,
     fontWeight: '400',
   },
@@ -352,7 +352,7 @@ const styles = StyleSheet.create({
   },
 
   navbarPoints: {
-    backgroundColor: '#f6a4a4',
+    backgroundColor: '#7df3a2',
     margin: 20,
     flexDirection: 'row',
     justifyContent: 'space-between',

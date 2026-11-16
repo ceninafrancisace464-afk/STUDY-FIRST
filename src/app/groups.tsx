@@ -208,7 +208,7 @@ export default function GroupsPage() {
           <TextInput
             style={groupsStyle.searchInput}
             placeholder="Search"
-            placeholderTextColor="#e91515"
+            placeholderTextColor="#3ab862"
             value={search}
             onChangeText={setSearch}
           />
@@ -259,7 +259,7 @@ export default function GroupsPage() {
         {loading ? (
           <ActivityIndicator
             size="large"
-            color="#D62828"
+            color="#3ab862"
             style={{ marginTop: 40 }}
           />
         ) : displayedGroups.length === 0 ? (
@@ -444,7 +444,7 @@ const groupsStyle = StyleSheet.create({
   },
 
   navbar: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     height: 120,
     flexDirection: 'row',
     alignItems: 'center',
@@ -509,7 +509,7 @@ const groupsStyle = StyleSheet.create({
   },
 
   activeTabText: {
-    color: '#D62828',
+    color: '#3ab862',
     fontWeight: 'bold',
   },
 
@@ -517,7 +517,7 @@ const groupsStyle = StyleSheet.create({
     width: 20,
     height: 3,
     borderRadius: 5,
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     marginTop: 4,
   },
 
@@ -541,7 +541,7 @@ const groupsStyle = StyleSheet.create({
   groupIcon: {
     width: 65,
     height: 65,
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     borderRadius: 55,
     justifyContent: 'center',
     alignItems: 'center',
@@ -652,7 +652,7 @@ const groupsStyle = StyleSheet.create({
   },
 
   deleteOptionText: {
-    color: '#D62828',
+    color: '#3ab862',
     fontSize: 15,
     fontWeight: 'bold',
   },
@@ -712,7 +712,7 @@ const groupsStyle = StyleSheet.create({
 
   confirmDeleteButton: {
     flex: 1,
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     padding: 13,
     borderRadius: 10,
     alignItems: 'center',

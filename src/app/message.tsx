@@ -1,15 +1,4 @@
-
-import {
-  View,
-  Text,
-  Image,
-  TextInput,
-  Pressable,
-  StyleSheet,
-  ScrollView,
-  ActivityIndicator,
-} from 'react-native';
-
+import {View,Text,Image,TextInput,Pressable,StyleSheet,ScrollView,ActivityIndicator,} from 'react-native';
 import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
 import { supabase } from '../lib/supabase';
@@ -248,7 +237,7 @@ export default function Messages() {
         <TextInput
           style={styles.searchInput}
           placeholder="Search"
-          placeholderTextColor="#e91515"
+          placeholderTextColor="#3ab862"
           value={search}
           onChangeText={setSearch}
         />
@@ -300,7 +289,7 @@ export default function Messages() {
         {loading ? (
           <ActivityIndicator
             size="large"
-            color="#D62828"
+            color="#3ab862"
             style={{ marginTop: 40 }}
           />
         ) : filteredFriends.length === 0 ? (
@@ -387,7 +376,7 @@ const styles = StyleSheet.create({
   },
 
   navbar: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     height: 120,
     flexDirection: 'row',
     alignItems: 'center',
@@ -441,7 +430,7 @@ const styles = StyleSheet.create({
   },
 
   activeTab: {
-    color: '#D62828',
+    color: '#3ab862',
     fontWeight: 'bold',
     fontSize: 14,
   },
@@ -470,7 +459,7 @@ const styles = StyleSheet.create({
   },
 
   friendAvatar: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     width: 60,
     height: 60,
     borderRadius: 55,
@@ -502,7 +491,7 @@ const styles = StyleSheet.create({
   },
 
   unreadBadge: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     minWidth: 21,
     height: 21,
     borderRadius: 15,

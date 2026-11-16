@@ -299,7 +299,7 @@ const styles = StyleSheet.create({
   },
 
   navbar: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     height: 120,
     flexDirection: 'row',
     alignItems: 'center',
@@ -380,7 +380,7 @@ const styles = StyleSheet.create({
   },
 
   myMessage: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     borderBottomRightRadius: 3,
   },
 
@@ -390,7 +390,7 @@ const styles = StyleSheet.create({
   },
 
   senderName: {
-    color: '#D62828',
+    color: '#3ab862',
     fontSize: 12,
     fontWeight: 'bold',
     marginBottom: 5,
@@ -442,7 +442,7 @@ const styles = StyleSheet.create({
   },
 
   sendButton: {
-    backgroundColor: '#D62828',
+    backgroundColor: '#3ab862',
     width: 65,
     height: 45,
     borderRadius: 10,
